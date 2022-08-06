@@ -1,0 +1,205 @@
+div{
+	text-align: center;
+    margin-bottom: 15px;
+    color: white;
+    margin: 0;
+}
+.center{
+	
+	font-size: 15px;
+	margin: 0;
+
+}
+.case{
+    width: 700px;
+	height: 1450px;
+	background-color: rgba(27, 27, 50, 0.8);
+	margin: auto;
+	border-radius: 3px;
+	margin-bottom: -10px;
+	
+	
+	
+}
+body{
+	background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(survey-form-background.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+}
+input, .proportion{
+	width: 625px;
+	margin-right: 465px;
+	border-radius: 0.25rem;
+	border: none ;
+	height: 35px;
+	margin-left: 38px;
+	 position: relative; bottom: 25px; 
+	 margin: 0;
+ 
+
+}
+.proportion{
+	height: 45px;
+	margin-left: -5px;
+	width: 642px;
+}
+p{
+	text-align:left;
+	margin-left: 38px;
+	padding-top: 32px;
+}
+p,input{
+     margin-top: 20px;
+	
+}
+.case{
+	 margin-top: 45px;
+
+
+}
+.espace{
+	margin-top: 20px;
+}
+.remontage{
+	margin-top: -40px;
+}
+div,p{
+	font-size: 20px;
+}
+.C1{
+	font-weight: 600;
+	font-size: 33px;
+}
+.C2{
+	font-size: 20px;
+	margin-top: 5px;
+}
+.Cp3{
+	margin-top: -17px;
+}
+.Cp5{
+	margin-top:-25px;
+}
+.Cp6{
+	margin-top:-65px;
+}
+.Cp7{
+	margin-top:-35px;
+}
+.Cp8{
+	margin-top: -65px;
+}
+.pdi{
+	padding: 5px 5px 5px 15px;
+
+}
+.comment{
+	width: 605px;
+	height: 75px;
+}
+.btn{
+	background-color: #37af65;
+	color: white;
+	font-weight:900px;
+}
+.flex_part{
+	display: flex;
+	margin: 30px;
+	margin-top: -10px;
+}
+.f_fp1{
+	width:15px;
+	
+}
+.f_fp11{
+	margin:0 0 0 10px;
+
+}
+.fpc{
+	margin-top: -55px;
+}
+.flex_part1{
+	display: flex;
+	margin: 30px;
+}
+.fpc1{
+	margin-top: -10px;
+}
+.flex_part12{
+	display: flex;
+	margin: 30px;
+	margin-top: -55px;
+}
+.fpc11{
+	margin-top: -54px;
+}
+
+/*****************************************Partie RESPONSIVE****************************************/
+@media screen and (max-width: 768px){
+	.C1{
+	font-weight: 400;
+	font-size:40px;
+	margin-top: 35px;
+	text-align: center;
+}
+.C2{
+	font-size: 22px;
+	margin-top: 25px;
+	text-align: center;
+	opacity: 0.7;
+}
+.case{
+    width: 100%;
+	height: 1650px;
+	margin-top: 50px;
+}
+
+.Cp3,.espace,.Cp5,.Cp8,.Cp6,.Cp7{
+	font-size: 22px;
+}
+.pdi{
+	padding: 5px 5px 5px 8px;
+	width: 90%;
+	height: 25px;
+	}
+	}
+	.espace{
+		margin-left: 15px;
+	}
+	.proportion{
+		width: 93%;
+	height: 38px;
+	
+	}
+	.f_fp1{
+	width: 15px;
+	margin-left: -20px;
+
+}
+.f_fp11{
+	font-size: 19px;
+}
+.Cp5{
+	margin-left: 15px;
+}
+.comment{
+	height: 90px;
+	width: 90%;
+}
+.btn{
+	width: 93%;
+	display: flex;
+	margin: auto;
+	margin-top: 15px;
+	padding:0 0 0 150px;
+}
+
+}
+}
